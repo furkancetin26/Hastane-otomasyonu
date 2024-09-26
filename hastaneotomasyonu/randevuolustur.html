@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Randevu Oluştur</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <style>
+    .bi-facebook:hover{
+            color: blue;
+        }
+        .bi-instagram:hover{
+            color: red;
+        }
+        .bi-youtube:hover{
+            color: red;
+        }
+        .carousel-item {
+            transition: transform 1s ease-in-out;
+        }
+  </style>
+<div class="row">
+        <div class="col-sm-12">
+            <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><i class="bi bi-hospital"></i>
+                        Hastane Otomasyonu</a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="giris.html" target="_blank"><i class="bi bi-box-arrow-in-right m-1"></i>Giriş</a>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="#doktorlarimiz">Doktorlarımız</a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+              </div>
+            </nav>
+        </div>
+    </div>
+<div class="container mt-5">
+  <h2>Randevu Oluştur</h2>
+  <form>
+    <div class="form-group">
+      <label for="ad">Adınız:</label>
+      <input type="text" class="form-control" id="ad" placeholder="Adınızı girin">
+    </div>
+    <div class="form-group">
+      <label for="soyad">Soyadınız:</label>
+      <input type="text" class="form-control" id="soyad" placeholder="Soyadınızı girin">
+    </div>
+    <div class="form-group">
+      <label for="email">E-posta:</label>
+      <input type="email" class="form-control" id="email" placeholder="E-posta adresinizi girin">
+    </div>
+    <div class="form-group">
+      <label for="telefon">Telefon:</label>
+      <input type="tel" class="form-control" id="telefon" placeholder="Telefon numaranızı girin">
+    </div>
+    <div class="form-group">
+      <label for="tarih">Randevu Tarihi:</label>
+      <input type="date" class="form-control" id="tarih">
+    </div>
+    <div class="form-group">
+      <label for="saat">Randevu Saati:</label>
+      <input type="time" class="form-control" id="saat">
+    </div>
+    <button type="submit" class="btn btn-primary">Randevu Oluştur</button>
+  </form>
+</div>
+<div class="row">
+  <div class="col-sm-12 text-center bg-light mt-3 p-3 social-icons" style="font-size: 2rem;">
+      <i class="bi bi-facebook mx-3"></i>
+      <i class="bi bi-instagram mx-3"></i>
+      <i class="bi bi-twitter-x mx-3"></i>
+      <i class="bi bi-youtube mx-3"></i>
+  </div>
+</div>
+<!-- Bootstrap JS ve Popper.js -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
